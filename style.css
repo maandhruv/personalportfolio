@@ -1,0 +1,54 @@
+*{
+    text-decoration: none;
+    font-family: ;
+    font-size:20px;
+    color:grey;
+    fo
+}
+body{
+
+    height:100vh;
+    background:linear-gradient(to bottom,#102f5c,#0d1c30) ;
+}
+.navdiv{
+    display: flex;align-items: center;
+ 
+    padding-left: 35%;
+}
+
+li{
+    display: inline-block;
+}
+li a{
+    font-size:25px;margin-right: 60px;
+}
+.intro{
+    height: 350px;
+    width: 600px;
+    transform: translate(200px,100px);
+  
+}
+.name{
+    font-size:70px ;
+    color:white;
+    font-weight: bold;
+}
+.photo{
+    
+    height: 350px;
+    width: 290px;
+    transform: translate(900px,-248px);
+}
+
+.footer{
+    height: 70px;
+  
+    transform: translateY(-150px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+;
+}
+footer a{
+    margin-right: 50px;
+}
