@@ -12,14 +12,15 @@ body{
 }
 .navdiv{
     display: flex;align-items: center;
-    padding-left: 30%;
+    padding-left: 23%;
+    margin-top: 20px;
 }
 
 li{
     display: inline-block;
 }
 li a{
-    font-size:25px;margin-right: 60px;
+    font-size:23px;margin-right: 60px;
 }
 .search-bar {
     margin-left: 100px;
@@ -86,11 +87,13 @@ footer a{
 }
 .queries{
     float:right;
-    transform: translate(-410px,-705px);
+    transform: translate(-430px,-705px);
     height:75%;
     width: 20%;
     padding: 20px;
     background-color:#45f5a3;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
 }
 queries a{
     margin-right: 50px;
@@ -98,15 +101,14 @@ queries a{
 }
 .education{
    margin-left:400px;
+   margin-top:20px;
 }
 
 .skill1{
     margin:left:20px;
-  
     float:left;
     height:200px;
     width:200px;
-    border:3px solid;
     padding:5px;
 }
 .skill2{
@@ -114,7 +116,6 @@ queries a{
     float:left;
     height:200px;
     width:200px;
-    border:3px solid;
     padding:5px;
 }
 .skill3{
@@ -123,7 +124,6 @@ queries a{
     float:left;
     height:200px;
     width:200px;
-    border:3px solid;
     padding:5px;
 }
 .skill4{
@@ -132,7 +132,6 @@ queries a{
     float:left;
     height:200px;
     width:200px;
-    border:3px solid;
     padding:5px;
 }
 .skill5{
@@ -141,7 +140,6 @@ queries a{
     float:left;
     height:200px;
     width:200px;
-    border:3px solid;
     padding:5px;
 }
 .skill6{
@@ -150,7 +148,6 @@ queries a{
     float:left;
     height:200px;
     width:200px;
-    border:3px solid;
     padding:5px;
 }
 .picture{
@@ -158,5 +155,17 @@ queries a{
     padding-left:70px;
     height:50px;
     width: 50px;
+    
+}
+.year{
+    float:left;
+    height: 200px;
+    width: 100px;
+    color:#45f5a3;
+}
+.edu{
+    float:left;
+    height: 200px;
+    width: 400px;
     
 }
