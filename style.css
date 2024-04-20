@@ -1,26 +1,30 @@
 *{
     text-decoration: none;
-    font-family: ;
+    font-family: 'Roboto', 'Helvetica', 'Sans-serif';
     font-size:20px;
     color:grey;
   
 }
 body{
-
-    height:100vh;
-    background:linear-gradient(to bottom,#102f5c,#0d1c30,#102452) ;
+    background:repeating-linear-gradient(to bottom,#102f5c,#0d1c30,#102452) ;
+    margin: 0;
+    padding: 0;
 }
 .navdiv{
     display: flex;align-items: center;
-    padding-left: 23%;
+    padding-left: 17%;
     margin-top: 20px;
+
+}
+.footer a i:hover{
+    color:white;
 }
 
 li{
     display: inline-block;
 }
 li a{
-    font-size:23px;margin-right: 60px;
+    font-size:23px;margin-right: 60px;color:white;
 }
 .search-bar {
     margin-left: 100px;
@@ -35,8 +39,11 @@ li a{
     border-radius: 5px;
     border-color:white;
     margin-right: 10px;
+    
 }
-
+::placeholder{
+    color:white;
+}
 .search-bar button {
     border-color:white;
     height:38px;
@@ -65,43 +72,18 @@ li a{
     transform: translate(900px,-248px);
 }
 
-.footer{
-    height: 70px;
-  
-    transform: translateY(-150px);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-;
-}
-footer a{
-    margin-right: 50px;
-}
-.contact-form {
-    height:75%;
-    width: 25%;
-    margin: 50px auto;
-    margin-left:300px;
-    padding: 20px;
-    background-color: #fff;
-}
-.queries{
-    float:right;
-    transform: translate(-430px,-705px);
-    height:75%;
-    width: 20%;
-    padding: 20px;
-    background-color:#45f5a3;
-    border-top-left-radius: 30px;
-    border-bottom-left-radius: 30px;
-}
-queries a{
-    margin-right: 50px;
-    justify-items: center;
-}
+
 .education{
    margin-left:400px;
    margin-top:20px;
+}
+#myskill{
+    transition: background 0.5s,transform 0.5s;
+}
+#myskill:hover{
+    transform: translateY(-10px);
+    background: #102f5c;
+    border-radius: 15px;
 }
 
 .skill1{
@@ -162,10 +144,130 @@ queries a{
     height: 200px;
     width: 100px;
     color:#45f5a3;
+    transition: background 0.5s,transform 0.5s;
 }
+
+.year:hover{
+    transform: scale(1.1);
+}
+
+
 .edu{
     float:left;
     height: 200px;
     width: 400px;
-    
+    margin-left: 25px;
+    transition: background 0.5s,transform 0.5s;
+}
+.edu:hover{
+    transform: scale(1.1);
+    color:white;
+}
+
+
+#project{
+    height: 550px;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin:auto;
+
+}
+.work{
+    height: 400px;
+    width: 30%;
+    border: 1px  #ccc;
+    background-color:#c0ced1;
+    position: sticky;
+    top: 0;
+    transition: 0.3s;
+    border-radius: 10px;
+}
+.work img{
+    width: 100%;
+    height:400px;
+    border-radius: 10px;
+}
+.layer{
+    width: 78%;
+    height: 0px;
+    background:linear-gradient(rgba(0,0,0,0.6),#ff004f);
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    text-align: center;
+    transition: height 0.5s;
+}
+
+.work:hover .layer{
+    height:100%;
+}
+
+.footer{
+    height: 70px;
+    transform: translateY(-150px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer a{
+    margin-right: 50px;
+}
+
+.contact-form {
+    background-color: none;
+    height:75%;
+    width: 25%;
+    margin: 50px auto;
+    margin-left:300px;
+    padding: 20px;
+    background-color: #fff;
+}
+.queries{
+    float:right;
+    transform: translate(-320px,-420px);
+    height:75%;
+    width: 350px;
+    padding: 20px;
+}
+.queries a{
+    margin-right: 30px;
+    justify-items: center;
+}
+form input,form textarea{
+    background-color: #c0ced1;
+    border-radius: 10px;
+}
+
+form textarea{
+    width: 300px;
+}
+
+#mybutton{
+    background-color: #45f5a3;
+    color: black;
+    border-radius: 5px;
+}
+
+form ::placeholder{
+    color:#0d1c30
+}
+
+.queries i:hover{
+    color:white;
+}
+
+#contact footer{
+    transform: translateX(160px);
+    color: white;
+    margin-top:150px;
+    margin-bottom:0;
+    text-align: center;
 }
