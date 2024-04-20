@@ -9,19 +9,19 @@
     <script src="https://kit.fontawesome.com/ec7f1a1d0f.js" crossorigin="anonymous"></script>
 </head>
 <body>
-
+<section>
     <header>
         <nav class="navclass">
             <div class="navdiv">
                 <ul>
                     <li><a href="index.html">HOME</a></li>
-                    <li ><a href="about.html">ABOUT</a></li>
-                    <li ><a href="#">PROJECTS</a></li>
-                    <li ><a href="contact.html">CONTACT</a></li>
+                    <li ><a href="#about">ABOUT</a></li>
+                    <li ><a href="#project">PROJECTS</a></li>
+                    <li ><a href="#contact">CONTACT</a></li>
                 </ul>
                 <div class="search-bar">
                     <input type="text" name="" placeholder="Search">
-                    <button>Go</button>
+                    <button style="width:50px">Go</button>
                 </div>
             </div>
         </nav>
@@ -40,5 +40,125 @@
             <a href="https://www.hackerrank.com/profile/maan_dhruv"><i class="fa-brands fa-hackerrank fa-3x"></i></a>
         </div>
     </footer>
+</section>
+<section id="about">
+    <div class="main">
+        <div class="education" id="myed" style="margin-top:50px">
+        <h1 style="color:white">EDUCATION</h1><br><br>
+        <p> 
+            <div class="year">
+                2010-2022<br><br><br>
+                2022-2026
+            </div>
+            <div class="edu">
+                Delhi Public school,Pune <br>
+                class I-XII<br><br>
+            
+                Vellore institute of technology,Vellore<br>
+                Btech, computer science with specialization in data science<br> 
+            </div>
+        </p><br><br><br><br><br><br><br><br><br>
+        <h1 style="color:white">MY SKILLS</h1><br><br>
+        <div class="skill1" id="myskill">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1200px-Postgresql_elephant.svg.png" class="picture">
+            <h1 align="center">postgres sql</h1>
+        </div>
+        <div class="skill2" id="myskill">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/768px-JavaScript-logo.png" class="picture">
+            <h1 align="center">javascript</h1>
+        </div>
+        <div class="skill3" id="myskill">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyQlAY-m5UXpwyX4z78Vpi4WFnNiU7e311PwoZU3kyXQ&s" class="picture">
+            <h1 align="center">python</h1>
+        </div><br><br><br><br><br><br><br><br><br><br>
+        <div class="skill4" id="myskill">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsubI1xnS2EsbFC7IKOtHXy3o2yp5zNGHX8-mLk-0nVw&s" class="picture">
+            <h1 align="center">html</h1>
+        </div>
+        <div class="skill5" id="myskill">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgVY6DG6W9hEVULmOHxDVSplRdKJvuOvfwEacydbIk8A&s" class="picture">
+            <h1 align="center">css</h1>
+        </div>
+        <div class="skill6" id="myskill">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8gYqUiSPrSOGI0Ml-vsGhcvQ0WomSu48GpLfEhzROLg&s" class="picture">
+            <h1 align="center">java</h1>
+        </div>
+    </div>
+</section>
+<section style="margin-top:300px">
+    <h1 align="center" style="color:white;font-size:30px">My Projects</h1><br>
+    <div id="project">
+        <div class="work">
+            <img src="img1.png">
+            <div class="layer" >
+                <h3 style="color:white;margin-bottom:0px">Be Fit</h3>
+                <p style="color:white">A fitness based website having diet plans,workout schedule and much more</p>
+                <a href="https://maandhruv.github.io/JSproject/" target="_blank"><i class="fa-solid fa-up-right-from-square" style="color:white"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="countdown.png"> 
+            <div class="layer">
+                <h3 style="color:white;margin-bottom:0px">countdown to new year</h3>
+                <p style="color:white">displays the days,hours,minutes and seconds left to jan 1 2025</p>
+                <a href="https://maandhruv.github.io/countdown-to-new-year/" target="_blank"><i class="fa-solid fa-up-right-from-square" style="color:white"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="resume.png">
+            <div class="layer">
+                <h3 style="color:white;margin-bottom:0px">Resume Builder</h3>
+                <p style="color:white">Build , edit and generate your resume dynamically. </p>
+                <a href="https://maandhruv.github.io/resume-builder/" target="_blank"><i class="fa-solid fa-up-right-from-square" style="color:white"></i></a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section id="contact" style="margin-top:200px;">
+    <div class="contact-form" style="background:transparent">
+        <h2 align="center" style="color:#45f5a3">Contact Me</h2>
+        <form name="submit-to-google-sheet">
+            <label for="name" style="color:#45f5a3" >Name:</label >
+            <input type="text" id="name" name="name" placeholder="your name" style="color:black" required>
+            <br><br><br>
+            <label for="email" style="color:#45f5a3">Email:</label>
+            <input type="email" id="email" name="email" placeholder="your email" style="color:black" required>
+            <br><br><br>
+            <label for="message" style="color:#45f5a3">Message:</label><br><br>
+            <textarea id="message" name="message" rows="6" placeholder="your message" style="color:black" required></textarea>
+            <br><br>
+            <button type="submit" id="mybutton">Submit</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button type="clear" id="mybutton">clear</button>
+        </form>
+    </div>
+    <div class="queries">
+        <p>
+            <span style="font-size:23px;color:white">for any more quieries:<br></span>
+            <p><i class="fa-solid fa-envelope" style="color:#45f5a3"></i> dhruv.maan2022@vitstudent.ac.in</p>
+            <p><i class="fa-solid fa-phone" style="color:#45f5a3"></i> 0123456789</p><br>
+            <a href="https://github.com/maandhruv"><i class="fa-brands fa-github "></i></a>
+            <a href="https://www.linkedin.com/in/dhruv-maan-554944274/" ><i class="fa-brands fa-linkedin "></i></a>
+            <a href="https://www.hackerrank.com/profile/maan_dhruv" ><i class="fa-brands fa-hackerrank "></i></a>
+        </p>
+    </div>
+    <footer>
+        <small>Copyright &copy;2024 All rights reserved.</small>
+    </footer>
+</section>
+<script>
+ 
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbx45TFphf0AbAwa3k6u353hkvtzlFQITG4Hw3rhg4X_BlkN6mPnEZonlWhYkfpV9g8Vhg/exec'
+        const form = document.forms['submit-to-google-sheet']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message))
+        })
+
+</script>
 </body>
 </html>
